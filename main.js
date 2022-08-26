@@ -13,9 +13,9 @@ app.get('/hello/:name', (req, res) => {
 });
 
 // * Use request query to send messages like the ones below.
-// $ by?name=bob -> 'see ya later bob'
-// $ by?name=mke -> 'see ya later mike'
-// $ by -> 'see ya later '
+// $ bye?name=bob -> 'see ya later bob'
+// $ bye?name=mke -> 'see ya later mike'
+// $ bye -> 'see ya later '
 // % hint: request.query.name
 
 app.get('/bye', (req, res) => {
